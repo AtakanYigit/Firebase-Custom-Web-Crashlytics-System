@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
   
 const app = initializeApp(firebaseConfig);
-const db  = getFirestore(app);
+export const db  = getFirestore(app);
 
 //Crash Log Submitting
 export const setCrashLog = (component = "", url = "", error = {message: "", stack: ""}, extraInfo = "") => {
@@ -29,7 +29,7 @@ export const setCrashLog = (component = "", url = "", error = {message: "", stac
     };
     
     //Create doc with random id in Messages collection
-    setDoc(doc(db, "Messages", logName), {log})
+    setDoc(doc(db, "ErrorLogs", logName), {log})
         .catch((error) => {
             console.error("Error sending message: ", error);
         });

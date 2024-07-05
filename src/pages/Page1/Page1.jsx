@@ -20,7 +20,10 @@ const Page1 = () =>{
     return(
         <div className = "Page1">
             <h1>This is Page1</h1>
+            
             <Link to = "/">Go to Home Page</Link>
+            <Link to = "/crashLogs">See Crashlytics</Link>
+
             <button onClick = {workingFunction}>Working Button</button>
             <button onClick = {brokenFunction}>Error Button</button>
         </div>

@@ -22,6 +22,8 @@ const Home = () =>{
         <div className = "Home">
             <h1>This is Home Page</h1>
             <Link to = "/page1">Go to Page 1</Link>
+            <Link to = "/crashLogs">See Crashlytics</Link>
+            
             <button onClick = {workingFunction}>Working Button</button>
             <button onClick = {brokenFunction}>Error Button</button>
         </div>
