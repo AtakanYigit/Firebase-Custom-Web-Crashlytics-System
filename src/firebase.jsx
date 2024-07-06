@@ -2,12 +2,12 @@ import {initializeApp} from "firebase/app";
 import {getFirestore, doc, setDoc}  from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey:             "AIzaSyAhc_VUUT8-vr7b7Rl9ux-mraZYSAru5os",
-    authDomain:         "firebas-crashlytics.firebaseapp.com",
-    projectId:          "firebas-crashlytics",
-    storageBucket:      "firebas-crashlytics.appspot.com",
-    messagingSenderId:  "811091427578",
-    appId:              "1:811091427578:web:eaaef5c62e7fe637a98943"
+    apiKey:             "",
+    authDomain:         "",
+    projectId:          "",
+    storageBucket:      "",
+    messagingSenderId:  "",
+    appId:              ""
 };
   
 const app = initializeApp(firebaseConfig);
