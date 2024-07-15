@@ -1,6 +1,6 @@
 # Firebase-Custom-Web-Crashlytics-System
 This is the Github repository for my article on Medium named "Firebase Crashlytics for Web (React.js)"
-You can read it here ---> [Article Link]
+You can read it here ---> https://blog.kleinpixelagency.com/firebase-crashlytics-for-web-77c4af1d5687
 
 ## What Does This Do?
 This repo demonstrates how a custom Firebase Web Crashlytics system works. Since Firebase Crashlytics only supports Android, Apple, Flutter and Unity apps and not web apps, I felt the need to implement it myself and share it with you all. It is for everyone's use, I hope you all enjoy it and find it useful. If you think the system can be improved, feel free to contact me.
